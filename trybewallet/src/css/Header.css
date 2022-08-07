@@ -1,0 +1,17 @@
+.header-content {
+  background-color: brown;
+  color: aliceblue;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.title-wallet {
+  color: rgb(88, 4, 4);
+}
+
+.title-trybe {
+  color: rgb(165, 113, 113);
+}

@@ -1,0 +1,91 @@
+.page-login {
+  background-color: #4a0404;
+  border-radius: 5px;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.login-form {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(110, 70, 67);
+  box-shadow: 5px 3px rgb(110, 70, 67);
+  color: #4a0404;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 90%;
+}
+
+.title-login {
+  color: #4a0404;
+  font-size: larger;
+  padding: 8px;
+  text-align: center;
+}
+
+.email , .password {
+  border: none;
+  border-bottom: 2px solid #4a0404;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.email:focus , .password:focus {
+  border-bottom: 2px solid #4a0404;
+  box-shadow: 0;
+  outline: 0;
+}
+
+.btn-login {
+  border: 2px solid black;
+  border-radius: 50px;
+  font-size: medium;
+  margin-top: 10px;
+  padding: 5px;
+  transition-duration: 0.4s;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-login:disabled {
+  color: #4a04048e;
+  background-color: #46434333;
+}
+
+.btn-login:enabled {
+  background-color: #844949;
+  color: white;
+}
+
+.btn-login:enabled:hover {
+  background-color: rgb(255, 255, 255);
+  color: #844949;
+  cursor: pointer;
+}
+
+
+body {
+  background-color: rgb(56, 59, 58);
+}
+
+.footer-page-login {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}

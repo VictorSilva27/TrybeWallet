@@ -1,0 +1,47 @@
+.form-content {
+  background-color: #4a0404;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+select , .value , .description {
+  background-color: #f1f1f1;
+  border: 2px solid #4a0404;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px 20px;
+  width: 90%;
+}
+
+select:focus , .value:focus  , .description:focus  {
+  box-shadow: 0;
+  outline: 0;
+}
+
+select:focus {
+  background-color: #4a0404;
+  color: #f1f1f1;
+  cursor: pointer;
+  border: 2px solid #f1f1f1;
+}
+
+.btn-wallet {
+  background-color: brown;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 1.5px;
+  font-size: medium;
+  margin-top: 10px;
+  padding: 5px;
+  transition-duration: 0.4s;
+}
+
+.btn-wallet:hover {
+  background-color: rgb(255, 255, 255);
+  color: #844949;
+  cursor: pointer;
+}

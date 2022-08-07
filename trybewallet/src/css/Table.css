@@ -1,0 +1,70 @@
+td {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  background-color: rgb(88, 4, 4);
+  color: rgb(165, 113, 113);
+}
+
+thead {
+  background-color: rgb(165, 113, 113);
+  border-radius: 2px;
+  color: rgb(88, 4, 4);
+}
+
+th {
+  width: 100px;
+  padding: 5px;
+}
+
+table , th , td {
+  border-radius: 1.5px;
+  text-align: center;
+}
+
+.page-table {
+  display: flex;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.table-container {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.btn-delete, .btn-edit {
+  font-size: medium;
+  margin: 2.5px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  transition-duration: 0.4s;
+  color: rgb(165, 113, 113);
+}
+
+.btn-delete {
+  background-color: #4a0404;
+}
+
+.btn-delete:hover {
+  background-color: #f13636;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: rgb(116, 39, 39);
+}
+
+.btn-edit:hover {
+  background-color: rgb(102, 102, 232);
+  cursor: pointer;
+}
