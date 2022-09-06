@@ -143,7 +143,7 @@ class WalletForm extends Component {
         </div>
 
         <button
-          className="btn-wallet"
+          className={ editor ? "btn-edit-wallet" : "btn-wallet" }
           type="submit"
           data-testid="btn-wallet"
           onClick={ editor ? this.handleClickEdit : this.handleClick }

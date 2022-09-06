@@ -1,5 +1,5 @@
 .header-content {
-  background-color: brown;
+  background-color: rgb(39, 37, 37);
   color: aliceblue;
   display: flex;
   gap: 15px;
@@ -9,9 +9,9 @@
 }
 
 .title-wallet {
-  color: rgb(88, 4, 4);
+  color: rgb(4, 88, 15);
 }
 
 .title-trybe {
-  color: rgb(165, 113, 113);
+  color: rgb(236, 252, 230);
 }

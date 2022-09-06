@@ -1,5 +1,5 @@
 .form-content {
-  background-color: #4a0404;
+  background-color: #616161;
   color: aliceblue;
   display: flex;
   justify-content: space-around;
@@ -10,7 +10,7 @@
 
 select , .value , .description {
   background-color: #f1f1f1;
-  border: 2px solid #4a0404;
+  border: 2px solid #585858;
   border-radius: 4px;
   margin-top: 5px;
   padding: 10px 20px;
@@ -23,14 +23,25 @@ select:focus , .value:focus  , .description:focus  {
 }
 
 select:focus {
-  background-color: #4a0404;
+  background-color: #585858;
   color: #f1f1f1;
   cursor: pointer;
   border: 2px solid #f1f1f1;
 }
 
 .btn-wallet {
-  background-color: brown;
+  background-color: rgb(2, 110, 2);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 1.5px;
+  font-size: medium;
+  margin-top: 10px;
+  padding: 5px;
+  transition-duration: 0.4s;
+}
+
+.btn-edit-wallet {
+  background-color: rgb(2, 31, 110);
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 1.5px;
@@ -42,6 +53,12 @@ select:focus {
 
 .btn-wallet:hover {
   background-color: rgb(255, 255, 255);
-  color: #844949;
+  color: rgb(2, 110, 2);
+  cursor: pointer;
+}
+
+.btn-edit-wallet:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 4, 110);
   cursor: pointer;
 }
