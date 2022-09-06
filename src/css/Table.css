@@ -2,14 +2,14 @@ td {
   width: 100px;
   height: 50px;
   padding: 5px;
-  background-color: rgb(88, 4, 4);
-  color: rgb(165, 113, 113);
+  background-color: rgb(179, 182, 179);
+  color: rgb(20, 20, 20);
 }
 
 thead {
-  background-color: rgb(165, 113, 113);
+  background-color: rgb(143, 143, 143);
   border-radius: 2px;
-  color: rgb(88, 4, 4);
+  color: rgb(255, 255, 255);
 }
 
 th {
@@ -24,7 +24,7 @@ table , th , td {
 
 .page-table {
   display: flex;
-  height: 80%;
+  height: 90%;
   overflow-y: scroll;
 }
 
@@ -42,13 +42,14 @@ table , th , td {
 }
 
 .btn-delete, .btn-edit {
+  width: 100px;
   font-size: medium;
   margin: 2.5px;
   border: none;
   border-radius: 25px;
   padding: 10px;
   transition-duration: 0.4s;
-  color: rgb(165, 113, 113);
+  color: rgb(253, 253, 253)
 }
 
 .btn-delete {
@@ -61,7 +62,7 @@ table , th , td {
 }
 
 .btn-edit {
-  background-color: rgb(116, 39, 39);
+  background-color: rgb(33, 31, 141);
 }
 
 .btn-edit:hover {

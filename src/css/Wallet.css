@@ -1,9 +1,10 @@
 .footer-wallet {
     margin-top: 10px;
-    background-color: rgb(100, 48, 48);
+    background-color: rgb(39, 39, 39);
     padding: 20px;
 }
 
 .page-wallet {
+    /* background-color: rgb(15, 15, 15); */
     height: 100vh;
 }
