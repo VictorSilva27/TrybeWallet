@@ -1,6 +1,6 @@
 .login-contato {
     align-items: center;
-    border: 2px solid #4a0404;
+    border: 2px solid rgb(101, 219, 4);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -8,21 +8,13 @@
     margin-top: 8%;
 }
 
-.login-contato a, .wallet-contato a {
-    color: black;
-    text-decoration: none;
+.login-contato a {
+  color: rgb(27, 26, 26);
+  text-decoration: none;
 }
 
 .login-contato div {
     display: flex;
     width: 50%;
     justify-content: center;
-}
-
-/* Header */
-.wallet-contato {
-    display: flex;
-    padding: 5px;
-    flex-wrap: wrap;
-    gap: 50px;
 }

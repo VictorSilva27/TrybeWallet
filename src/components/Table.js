@@ -22,7 +22,7 @@ class Table extends Component {
     const { walletForm } = this.props;
     return (
       <div className='page-table'>
-        <table className="table-container" data-testid="table-wallet">
+        <table data-testid="table-wallet">
           <thead className="header-table">
             <tr>
               {headerTable.map((item, index) => (
@@ -33,15 +33,23 @@ class Table extends Component {
           <tbody>
             {walletForm.map((item, index) => (
               <tr key={ (item.id + index) * 2 }>
-                <td data-testid="td-desc" className="itemDesc">{item.description}</td>
+                <td data-testid="td-desc">{item.description}</td>
                 <td data-testid="td-tag">{item.tag}</td>
                 <td data-testid="td-method">{item.method}</td>
-                <td data-testid="td-value">{(+item.value)
-                  .toLocaleString('pt-br', { style: 'currency', currency: item.currency })}</td>
+                <td data-testid="td-value">{
+                (item.currency === 'DOGE' ? `DOGE ${(+item.value).toFixed(2)}` : (
+                  (+item.value)
+                  .toLocaleString('pt-br', { style: 'currency', currency: item.currency })
+                  ))
+                }
+                  </td>
                 <td data-testid="td-name">{item.exchangeRates[item.currency].name}</td>
                 <td data-testid="td-cambio">
-                  {(+item.exchangeRates[item.currency].ask)
-                    .toLocaleString('pt-br', { style: 'currency', currency: item.currency })}
+                  {(item.currency === 'DOGE' ? `DOGE ${(+item.exchangeRates[item.currency].ask).toFixed(2)}` : (
+                  (+item.exchangeRates[item.currency].ask)
+                  .toLocaleString('pt-br', { style: 'currency', currency: item.currency })
+                  ))
+                }
                 </td>
                 <td data-testid="td-conversão">
                   {((+item.value) * (+item.exchangeRates[item.currency].ask))

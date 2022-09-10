@@ -60,7 +60,7 @@ render() {
             <input
               className="password"
               placeholder='Senha (6 Digitos)*'
-              type="text"
+              type="password"
               id="password"
               name="password"
               onChange={ this.handleChange }

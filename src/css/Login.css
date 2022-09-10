@@ -18,9 +18,9 @@
 .login-form {
   background-color: white;
   border-radius: 4px;
-  border: 1px solid rgb(110, 70, 67);
-  box-shadow: 5px 3px rgb(110, 70, 67);
-  color: #4a0404;
+  border: 1.5px solid rgb(101, 219, 4);
+  box-shadow: 5px 3px rgb(112, 109, 108);
+  color: rgb(2, 110, 2);
   display: flex;
   flex-direction: column;
   margin: 8px 0;
@@ -29,7 +29,9 @@
 }
 
 .title-login {
-  color: #4a0404;
+  color: rgb(23, 24, 23);
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
   padding: 8px;
   text-align: center;
@@ -37,7 +39,7 @@
 
 .email , .password {
   border: none;
-  border-bottom: 2px solid #4a0404;
+  border-bottom: 2px solid rgb(2, 110, 2);
   display: flex;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -47,7 +49,7 @@
 }
 
 .email:focus , .password:focus {
-  border-bottom: 2px solid #4a0404;
+  border-bottom: 2px solid rgb(101, 219, 4);
   box-shadow: 0;
   outline: 0;
 }
@@ -55,7 +57,7 @@
 .btn-login {
   border: 2px solid black;
   border-radius: 50px;
-  font-size: medium;
+  font-size: large;
   margin-top: 10px;
   padding: 5px;
   transition-duration: 0.4s;
@@ -64,18 +66,19 @@
 }
 
 .btn-login:disabled {
-  color: #4a04048e;
+  color: #052714;
   background-color: #46434333;
 }
 
 .btn-login:enabled {
-  background-color: #844949;
+  background-color: #084718;
+  border: 2px solid rgb(101, 219, 4);
   color: white;
 }
 
 .btn-login:enabled:hover {
   background-color: rgb(255, 255, 255);
-  color: #844949;
+  color: rgb(101, 219, 4);
   cursor: pointer;
 }
 

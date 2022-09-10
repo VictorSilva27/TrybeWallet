@@ -13,7 +13,7 @@ class Header extends Component {
       .forEach((item, index) => {
         result += Number(item.value) * convertedValues[index];
       });
-    return result.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
+    return result.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' }).slice(3);
   }
 
   render() {
@@ -24,15 +24,13 @@ class Header extends Component {
           <span className="title-wallet">Wallet</span>
         </h1>
         <p>
-          E-mail:
+          e-mail:
           {' '}
           <span data-testid="email-field">
             {emailState}
           </span>
         </p>
         <p>
-          Total
-          {' '}
           <span data-testid="total-field">
             {total.length === 0 ? 'R$ 0,00' : this.converter()}
             {' '}

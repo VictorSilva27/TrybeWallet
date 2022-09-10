@@ -23,14 +23,9 @@ table , th , td {
 }
 
 .page-table {
-  display: flex;
   height: 90%;
   overflow-y: scroll;
-}
-
-.table-container {
-  padding: 10px;
-  border: 1px solid black;
+  background-color: rgb(102, 102, 102);
 }
 
 .table {

@@ -1,5 +1,4 @@
 import React from 'react';
-import Contato from '../components/Contato';
 import Header from '../components/Header';
 import Table from '../components/Table';
 import WalletForm from '../components/WalletForm';
@@ -17,10 +16,6 @@ class Wallet extends React.Component {
             <Table />
           </div>
         </div>
-        <footer className='footer-wallet'>
-          <h1> Victor Silva </h1>
-          <Contato cssName='wallet-contato' />
-        </footer>
       </div>
     );
   }
