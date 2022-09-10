@@ -32,7 +32,7 @@ class Header extends Component {
         </p>
         <p>
           <span data-testid="total-field">
-            {total.length === 0 ? 'R$ 0,00' : this.converter()}
+            {total.length === 0 ? '0,00' : this.converter()}
             {' '}
             BRL
           </span>

@@ -1,9 +1,10 @@
 .login-contato {
     align-items: center;
-    border: 2px solid rgb(101, 219, 4);
+    border-top: 2px solid rgb(49, 49, 48);
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    padding-top: 25px;
     flex-wrap: wrap;
     margin-top: 8%;
 }
